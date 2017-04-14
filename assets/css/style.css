@@ -20,7 +20,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #000;
+   
     line-height: 16px;
     font-weight: 400;
 }
@@ -247,16 +247,18 @@ color: #FF0000;
 }
 
 .navbar-inverse {
-    background: #000;
-    border-color: #000;
+    
+   
+	background-image: url(../../img/nav.jpg);
 }
 
     .navbar-inverse .navbar-nav > .active > a {
-        background: #ffffff;
+       background-image: url(../../img/nav.jpg);
+	   
     }
 
     .navbar-inverse .navbar-brand {
-        color: #fff;
+        image: url(../../img/nav.jpg);
         font-weight: bolder;
         font-size: 25px;
         font-weight: 900;
@@ -264,11 +266,11 @@ color: #FF0000;
     }
 
     .navbar-inverse :hover .navbar-brand:hover {
-        color: #fff;
+        image: url(../../img/nav.jpg);
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #FFFFFF;
+        image: url(../../img/nav.jpg);
     }
 
 
